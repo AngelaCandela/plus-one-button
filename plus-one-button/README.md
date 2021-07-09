@@ -1,6 +1,16 @@
+# About the button app
+
+This project is made of a simple button component that adds one to the number displayed above the button.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Installation
+
+Once you have cloned the repository, switch directory to where you have the app and run:
+
+### `npm install`
 
 ## Available Scripts
 
