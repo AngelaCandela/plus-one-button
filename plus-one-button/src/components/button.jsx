@@ -1,9 +1,19 @@
-import React from 'react'
+import { React, useState } from 'react';
 
-export default function button() {
+export default function Button() {
+
+    const [num, setNum] = useState(1);
+
+    function handleClick() {
+        setNum(num + 1);
+    }
+
     return (
-        <div>
-            
-        </div>
+        <>
+            <h1>{num}</h1>
+            <button className="btn btn-success" onClick={handleClick}>Plus One</button>
+        </>
     )
 }
+
+
